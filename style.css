@@ -1,0 +1,490 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: antiquewhite;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.navlogo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-image: url("images/amalogo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50px;
+    width: 100%;
+    background-size: contain;
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border :hover{
+    border: 1.5px solid white;
+}
+.nav-add{
+    margin-left: 10px;
+}
+.addbox{
+    display: flex;
+    align-items: center;
+}
+.first{
+    color: #cccccc;
+    font-size: 0.8rem;
+    margin-left: 15px;
+}
+.second{
+    color: antiquewhite;
+    font-size: 1rem;
+    margin-left: 3px;
+
+}
+.nav-search{
+    display: flex;
+    margin-left: 10px;
+    height: 40px;
+    width: 800px;
+    background-color: orangered;
+    align-items: center;
+    border-radius: 4px;
+
+}
+.nav-search :hover{
+    border: 2px solid orangered;
+}
+.select{
+    height: 40px;
+    width: 60px;
+    text-align: center;
+    border: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background-color: #ffffff;
+
+    
+}
+.search{
+    height: 40px;
+    width:690px;
+    font: 1rem;
+    border: none;
+    
+}
+.nav-searchbar{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+
+.nav-sign-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+
+}
+span{
+    font-size:  0.7rem;
+}
+.nav-status-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+
+}
+
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.nav-cart i{
+    font-size: 30px;
+}
+.panel{
+    display: flex;
+    background-color: #222f3d;
+    height: 39px;
+    color: #ffffff;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.panel-op p{
+    display: inline;
+    margin-left: 15px;
+    
+}
+.panel-op{
+    width: 1450px;
+    font-size: 0.85rem;
+}
+.hero{
+    background-image: url(images/HEROSECTION.jpg);
+    height: 350px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.herowrite{
+    background-color: #ffffff;
+    height:40px;
+    width: 80%;
+    align-items: center;
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-size: 0.85rem;
+    margin-bottom: 25px;
+}
+.herowrite a{
+    color: #007185;
+}
+.mainshopsection{
+    background-color: #E2e7e6;
+}
+.shop-section{
+    background-color: #E2e7e6;
+    display: flex;
+     flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.box{
+    background-color: #ffffff;
+    color: #0f1111;
+    height: 400px;
+    width: 23%;
+}
+h2{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+h3{
+    margin-top: 5px;
+    margin-left: 5px;
+  
+}
+.headingshop{
+    margin-top: 10px;
+}
+.boxfirstline{
+    height: 130px;
+    width:100%;
+    display: flex;
+    justify-content: space-evenly;
+    
+    margin-top: 10px;
+}
+.boxinner{
+    height: 97%;
+    width:150px;
+    
+
+}
+.boxsecondline{
+    height: 130px;
+    width:100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    
+}
+.boxp{
+    color: #2162a1;
+    
+    
+    margin-left: 10px;
+    margin-top: 15px;
+    font-size: small;
+    
+}
+.fp{
+    display: inline-block;
+    margin-right: 45px;
+    margin-left: 35px;
+    font-size: small;
+    
+}
+.fp1{
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 45px;
+    font-size: small;
+    
+}
+.fp2{
+     display: inline-block;
+     margin-right: 15px;
+     margin-left: 40px;
+     font-size: small;
+
+}
+.fp3{
+    display: inline-block;
+    margin-right: 90px;
+    margin-left: 30px;
+    font-size: small;
+}
+.box-image{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+
+}
+.onebox{
+    height:305px;
+    width: 90%;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.thirdfirstline{
+    height: 145px;
+    width: 90%;
+     margin-top: 5px;
+    margin-left: 15px;
+   
+}
+.thirdsecondline{
+    height: 100px;
+    width: 90%;
+     margin-top: 5px;
+    margin-left: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.thirdlineinner{
+    height:100%;
+    width: 100px;
+}
+.fp1{
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 35px;
+   
+}
+.shop1-section{
+    background-color: #E2e7e6;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.boxfull{
+    height:300px;
+    width:96%;
+    background-color: #ffffff;
+    border: 2px solid black;
+    
+} 
+.shop2-section{
+    background-color: #E2e7e6;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.toppicks{
+    height:250px;
+    width: 97%;
+    
+    background-color: white;
+   
+}
+.shop3-section{
+     background-color: #E2e7e6;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 20px;
+     
+
+}
+.headtoppicks{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.pickbox{
+    height: 180px;
+    width: 184px;
+   
+}
+.toppickmiddle{
+    height: 175px;
+    width: 100%;
+   
+    margin-top: 4px;
+    display: flex;
+    flex-direction: row;
+}
+.box-image1{
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.bestbox{
+    
+    height: 180px;
+    width:220px;
+}
+.bestbox1{
+    height: 180px;
+    width: 250px;
+}
+.shopend-section{
+     background-color: #E2e7e6;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    
+}
+.signborder{
+    height: 30px;
+    width: 100%;
+    border-bottom: 1px solid grey;
+    background-color: #ffffff;
+}
+.signendborder{
+    height: 20px;
+    width: 100%;
+    border-bottom: 1px solid grey;
+    background-color: #ffffff;
+}
+.signsection{
+    height: 170px;
+    width: 100%;
+    background-color: white;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.signbutton{
+    height: 30px;
+    width: 230px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    border: 2px soild black;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.link{
+    color: #2162a1;
+    text-decoration: underline;
+}
+.footerpanel1{
+    height: 50px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #37475a;
+    font-size: 0.85rem;
+}
+.footerpanel1:hover{
+    background-color: #3f5b78;
+}
+.footerpanel2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #222f3d;
+    color: #dddddd;
+    height: 300px;
+    
+
+    
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+.footerpanel3{
+    border-top: 1px solid rgb(109, 105, 105);
+    background-color: #222f3d;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    background-image: url("images/amalogo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 30px;
+    width: 100%;
+    background-size: contain;
+
+
+}
+.footerpanel4{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+}
+.footerpanel-line1{
+    height: 50px;
+    width: 100%;
+    background-color: #131a22;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footerpanel4 ul a{
+    display: block;
+    font-size: 0.85rem;
+    color: #dddddd;
+}
+.footerpanel-line2{
+    height: 180px;
+    width: 100%;
+    padding-top: 12px;
+  
+    background-color: #131a22;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+h4{
+    margin-top: 10px;
+}
+.footerpanel5{
+    height: 80px;
+    width: 100%;
+    background-color: #131a22;
+    color: white;
+    display: flex;
+    flex-direction: column;
+     justify-content: space-evenly;
+     font-size: small;
+   
+    align-items: center;
+}
+.footul a{
+
+    display: inline-block block;
+    font-size: 0.85rem;
+   color: #dddddd;
+   margin-left: 7px;
+}
